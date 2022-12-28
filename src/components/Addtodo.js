@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Addtodo() {
-  const [todo, settodo] = useState({ value: "" });
+  const [todo, settodo] = useState({ id: "0", value: "" });
   function submitTodo(e) {}
   return (
     <form>
