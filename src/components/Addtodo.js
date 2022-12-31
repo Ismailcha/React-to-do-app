@@ -13,6 +13,10 @@ export default function Addtodo() {
       <button className="btn-add" onClick={submitTodo}>
         Add
       </button>
+      <div className="todos">
+        <p className="todo-text">{todo.value}</p>
+        <button className="btn-end">END task</button>
+      </div>
     </form>
   );
 }
