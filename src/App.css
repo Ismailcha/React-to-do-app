@@ -1,3 +1,6 @@
+* {
+  margin: 7px;
+}
 .app {
   position: relative;
 }
@@ -7,16 +10,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-form {
+.input_todo {
   display: flex;
+  flex-direction: row;
 }
-.input-todo {
-  width: 100%;
-  margin: 5px;
+ol {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px 15px;
 }
-.todos {
-  display: flex;
-}
-.todo-text {
-  margin: 5px;
+.todolist-item {
+  background-color: #dbd1ad;
+  text-align: center;
 }
