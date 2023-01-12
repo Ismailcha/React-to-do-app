@@ -54,7 +54,7 @@ export default function Addtodo() {
           onKeyDown={enterToAdd}
         />
         <button className="btn-add" onClick={handleClick}>
-          &#8330;
+          Add
         </button>
       </div>
 

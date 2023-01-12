@@ -15,6 +15,7 @@ body {
   background-color: #d5c295;
   width: 550px;
   border-radius: 35px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 }
 .flex {
   display: flex;
@@ -26,22 +27,26 @@ input {
   border-radius: 10px;
 }
 h3 {
+  font-weight: bolder;
   color: #737271;
 }
 .btn-add {
   text-align: center;
   background-color: aquamarine;
-  color: white;
-  font-size: 32px;
+  color: rgb(76, 150, 234);
   border: none;
-  width: 45px;
+  width: 50px;
   height: 45px;
+  font-weight: bold;
   border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 5px 5px 50px rgb(148, 207, 216);
 }
 .btn-add:hover {
-  width: 55px;
-  height: 55px;
-  background-color: rgb(121, 148, 139);
+  color: rgb(83, 161, 250);
+  width: 51px;
+  height: 47px;
+  box-shadow: 5px 5px 50px rgb(234, 234, 255);
 }
 ul {
   list-style-type: none;
